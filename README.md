@@ -7,7 +7,7 @@ Last edited on 5/24/2021 by Mike McNelis
 
 A multivariate regression model that optimizes the Eulerian grid volume in computational fluid dynamics. 
 
-This repository trains a Lasso regression model to predict the maximum fireball radius in heavy-ion collision simulations. We incorporated these scripts in the hydrodynamic code [VAH](https://github.com/mjmcnelis/cpu_vah) to automatically configure the grid size for a given set of Bayesian model parameters and impact parameter. The optimization scheme provides an additional 1.5x speedup for 2+1d simulations (the algorithm has not yet been tested for 3-D grids).
+This repository trains a Lasso regression model to predict the maximum fireball radius in heavy-ion collision simulations. We incorporated these scripts in the hydrodynamic code [VAH](https://github.com/mjmcnelis/cpu_vah) to automatically configure the grid size for a given impact parameter and Bayesian model parameter set. The optimization scheme provides an additional 1.5x speedup for 2+1d simulations (the algorithm has not yet been tested for 3-D grids).
 
 We worked on this project during the Erdos Institute Data Science Boot Camp in 2020. Our powerpoint presentation video explains how the machine learning algorithm works. 
 
