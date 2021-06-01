@@ -24,7 +24,7 @@ You can visualize the training data with the notebook `visualize_train_data.ipyn
 
 ## Regression model
 
-The notebook `grid_regression.ipynb` fits a cubic polynomial Lasso regression model to the training data. You can also evaluate the auto-grid's success rate at enclosing the fireball sizes of a separate data set `launch/fixed_grid/fireball_sizes`.
+The notebook `grid_regression.ipynb` fits a cubic polynomial Lasso regression model to the training data. You can also evaluate the auto-grid's success rate at enclosing the fireball sizes of a separate data set `launch/fixed_grid/fireball_radius`.
 
 Note: the default regression fit in the code [VAH](https://github.com/mjmcnelis/cpu_vah) excludes the standard deviation since it takes much more computational resources to produce this data set.
 
